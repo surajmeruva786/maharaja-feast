@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="30" viewBox="0 0 200 30">
+  <!-- Ornate divider for section separation -->
+  <g fill="none" stroke="#C1A173">
+    <!-- Main horizontal line -->
+    <line x1="10" y1="15" x2="190" y2="15" stroke-width="2" />
+    
+    <!-- Center ornament -->
+    <g transform="translate(100, 15)">
+      <circle cx="0" cy="0" r="7" stroke-width="1.5" />
+      <path d="M-5,-5 L5,5 M-5,5 L5,-5" stroke-width="1.5" />
+    </g>
+    
+    <!-- Side ornaments -->
+    <g transform="translate(50, 15)">
+      <circle cx="0" cy="0" r="4" stroke-width="1" />
+    </g>
+    <g transform="translate(150, 15)">
+      <circle cx="0" cy="0" r="4" stroke-width="1" />
+    </g>
+    
+    <!-- Fine flourishes -->
+    <path d="M25,15 C30,5 40,25 45,15" stroke-width="1" />
+    <path d="M175,15 C170,5 160,25 155,15" stroke-width="1" />
+    
+    <!-- End caps -->
+    <path d="M10,15 C5,15 5,10 10,10 C15,10 15,15 10,15 Z" stroke-width="1" fill="#C1A173" fill-opacity="0.2" />
+    <path d="M190,15 C195,15 195,10 190,10 C185,10 185,15 190,15 Z" stroke-width="1" fill="#C1A173" fill-opacity="0.2" />
+  </g>
+</svg>

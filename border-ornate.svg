@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+  <!-- Ornate border for decorative elements -->
+  <g fill="none" stroke="#C1A173" stroke-width="1.5">
+    <!-- Center ornament -->
+    <path d="M100,10 C105,5 110,10 105,15 C100,20 95,15 100,10 Z" fill="#C1A173" fill-opacity="0.2" />
+    
+    <!-- Left side pattern -->
+    <path d="M10,25 H40 M45,25 H75 M80,25 H95" />
+    <path d="M20,25 L25,20 L30,25 L35,20 L40,25" />
+    <path d="M50,25 L55,15 L60,25 L65,15 L70,25" />
+    
+    <!-- Right side pattern (mirrored) -->
+    <path d="M190,25 H160 M155,25 H125 M120,25 H105" />
+    <path d="M180,25 L175,20 L170,25 L165,20 L160,25" />
+    <path d="M150,25 L145,15 L140,25 L135,15 L130,25" />
+    
+    <!-- Corner decorations -->
+    <path d="M5,20 C5,15 10,15 10,20 C10,25 5,25 5,20 Z" fill="#C1A173" fill-opacity="0.2" />
+    <path d="M195,20 C195,15 190,15 190,20 C190,25 195,25 195,20 Z" fill="#C1A173" fill-opacity="0.2" />
+  </g>
+  
+  <!-- Fine details -->
+  <g fill="#C1A173" fill-opacity="0.6">
+    <circle cx="10" cy="25" r="2" />
+    <circle cx="95" cy="25" r="2" />
+    <circle cx="105" cy="25" r="2" />
+    <circle cx="190" cy="25" r="2" />
+  </g>
+</svg>
